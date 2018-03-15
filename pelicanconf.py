@@ -4,12 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julian Daeumer'
 SITENAME = u'Binary Research'
+SITSUBTITLE = ''
 SITEURL = ''
-
 PATH = 'content'
-
 TIMEZONE = 'America/New_York'
-
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -20,7 +18,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('devttys0', 'http://www.devttys0.com'),
+        ('Bitlackeys Research', 'http://www.bitlackeys.org/'),)
+#         (('Pelican', 'http://getpelican.com/'),
 #         ('Python.org', 'http://python.org/'),
 #         ('Jinja2', 'http://jinja.pocoo.org/'),
 #         ('You can modify those links in your config file', '#'),)
@@ -54,3 +54,7 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 ENABLE_MATHJAX = True
 
 THEME = 'themes/pelican-themes/bootstrap2'
+
+TWITTER_USERNAME = '_SYS_V'
+GITHUB_USERNAME = 'daeumerj'
+STACKOVERFLOW_ADDRESS = 'https://reverseengineering.stackexchange.com/users/18317/sys-v'
