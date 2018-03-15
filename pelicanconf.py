@@ -52,3 +52,5 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 ENABLE_MATHJAX = True
+
+THEME = 'themes/pelican-themes/bootstrap2'
