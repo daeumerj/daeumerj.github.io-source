@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julian Daeumer'
 SITENAME = u'Binary Research'
-SITSUBTITLE = ''
+SITESUBTITLE = u'reverse engineering, binary analysis, data analysis'
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'America/New_York'
@@ -26,7 +26,7 @@ LINKS = (('devttys0', 'http://www.devttys0.com'),
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('@_SYS_V', 'https://twitter.com/_SYS_V'),)
 #          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
@@ -53,8 +53,12 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 ENABLE_MATHJAX = True
 
-THEME = 'themes/pelican-themes/bootstrap2'
+THEME = 'themes/pelican-themes/bootstrap'
 
 TWITTER_USERNAME = '_SYS_V'
 GITHUB_USERNAME = 'daeumerj'
 STACKOVERFLOW_ADDRESS = 'https://reverseengineering.stackexchange.com/users/18317/sys-v'
+
+# Footer info
+LICENSE_URL = "https://github.com/daeumerj/daeumerj.github.io-source/blob/master/LICENSE"
+LICENSE = "MIT"
